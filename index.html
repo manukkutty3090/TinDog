@@ -204,11 +204,14 @@
 
   <footer id="footer" class="white-section">
     <div class="container-fluid">
-      <i class=" footer-icons fab fa-twitter"></i>
-      <i class=" footer-icons fab fa-facebook-f"></i>
-      <i class=" footer-icons fab fa-instagram"></i>
-      <i class=" footer-icons fas fa-envelope"></i>
-      <p>© Copyright 2018 TinDog</p>
+     <a class="footer-icon fab fa-twitter"></a>
+      <a class="footer-icon fab fa-facebook-f" href="https://www.facebook.com/manu.kkutty/" target="_blank"></a>
+      <a class="footer-icon fab fa-instagram" href="https://www.instagram.com/manu_kkutty_13/" target="_blank"></a>
+      <a class="footer-icon fas fa-envelope" href="mailto:manukkutty@live.com" target="_blank"></a>
+      <p>© Copyright <span id="year"></span>TinDog</p>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
     </div>
   </footer>
 
