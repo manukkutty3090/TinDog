@@ -144,8 +144,8 @@ text-align: left;
 
 /* Footer section */
 
-.footer-icons {
-  margin: 2% 1%;
+.footer-icon{
+  margin: 2%;
 }
 
 @media (max-width:991px) {
