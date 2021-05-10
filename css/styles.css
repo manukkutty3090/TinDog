@@ -149,12 +149,6 @@ padding: 3% 15% 7%;
 }
 
 @media (max-width:991px) {
-  #title.container-fluid {
+  #title .container-fluid{
     text-align: center;
   }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
